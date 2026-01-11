@@ -30,8 +30,8 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className=" hidden lg:block absolute z-10 left-44">
-          <hr className=" bg-[#979797] shadow w-120  border-b-2 " />
+        <div className=" hidden lg:block absolute z-10 left-41">
+          <hr className=" bg-[#979797] shadow w-130  border-b-2 " />
         </div>
 
         {/* Desktop Navigation */}

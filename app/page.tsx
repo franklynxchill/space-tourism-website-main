@@ -17,7 +17,7 @@ export default function page() {
         lg:bg-[url('@/public/assets/home/background-home-desktop.jpg')]
         lg:h-[150vh]
       ">
-      <div className=" container mx-auto text-center lg:text-left flex  flex-col lg:flex-row items-center gap-x-10 gap-y-20 md:gap-y-40 lg:pl-32">
+      <div className=" container mx-auto text-center lg:text-left flex  flex-col lg:flex-row items-end gap-x-10 gap-y-20 md:gap-y-40 lg:pl-32">
         <div className=" flex-1">
           <h5>So, you want to travel to</h5>
           <h1>Space</h1>
@@ -25,7 +25,7 @@ export default function page() {
             Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!
           </p>
         </div>
-        <div className=" flex-1 flex items-end justify-end">
+        <div className=" flex-1 ">
           <button className=" bg-accent text-primary uppercase w-37.5 h-37.5 md:w-68.5 md:h-68.5  hover:shadow-gray-900 hover:shadow-2xl rounded-full text-xl md:text-3xl cursor-pointer">Explore</button>
         </div>
       </div>
