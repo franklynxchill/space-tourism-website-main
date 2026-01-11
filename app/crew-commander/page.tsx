@@ -32,22 +32,25 @@ export default function Page() {
         <div className="flex flex-col md:flex-col-reverse lg:flex-row-reverse items-center gap-y-14">
           {/* Image */}
           <div className="w-full lg:w-2/5 border-b-2 border-b-gray-400 md:border-0">
-            <div className="
-              relative mx-auto
-              w-42.5 h-42.5
-              md:w-75 md:h-75
-              lg:w-111.25 lg:h-111.25
-            ">
+            <div
+              className="
+                relative mx-auto w-full
+                h-55.75
+                md:h-143
+                lg:h-178
+              "
+            >
               <Image
                 src={activeCrew.images.png}
                 alt={activeCrew.name}
                 fill
                 priority
                 sizes="
-                  (max-width: 768px) 170px,
-                  (max-width: 1024px) 300px,
-                  615.57px
+                  (max-width: 768px) 456.37px,
+                  (max-width: 1024px) 568.07px,
+                  327px
                 "
+                className="object-contain"
               />
             </div>
           </div>
