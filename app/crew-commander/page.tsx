@@ -20,7 +20,7 @@ export default function Page() {
       lg:bg-[url('/assets/crew/background-crew-desktop.jpg')]
       lg:h-[140vh]
     ">
-      <div className="container mx-auto pb-20 md:pb-0">
+      <div className="container mx-auto pb-20 md:pb-0 lg:pl-32">
         {/* Heading */}
         <div className="pt-22 lg:pt-53 text-center md:text-left">
           <h5 className="text-accent">
