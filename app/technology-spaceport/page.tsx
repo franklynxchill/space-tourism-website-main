@@ -31,7 +31,7 @@ export default function Page() {
         lg:h-[160vh]
       "
     >
-      <div className="container mx-auto pt-20 md:pt-36 lg:pt-52">
+      <div className="container mx-auto pt-20 md:pt-36 lg:pt-52 lg:pl-24">
         <h5 className="mb-8 md:mb-20 lg:mb-0 text-accent text-center md:text-left">
           <span className="text-secondary pr-6">03</span> Space launch 101
         </h5>
