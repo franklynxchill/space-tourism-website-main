@@ -18,7 +18,7 @@ export default function Page() {
       bg-cover bg-center bg-no-repeat
       md:bg-[url('/assets/crew/background-crew-tablet.jpg')]
       lg:bg-[url('/assets/crew/background-crew-desktop.jpg')]
-      lg:h-[140vh]
+      lg:h-[130vh]
     ">
       <div className="container mx-auto pb-20 md:pb-0 lg:pl-32">
         {/* Heading */}
