@@ -17,7 +17,7 @@ export default function page() {
         lg:bg-[url('@/public/assets/home/background-home-desktop.jpg')]
         lg:h-[150vh]
       ">
-      <div className=" container mx-auto text-center lg:text-left flex  flex-col lg:flex-row items-center justify-between gap-y-20 md:gap-y-40 lg:pl-24">
+      <div className=" container mx-auto text-center lg:text-left flex  flex-col lg:flex-row items-center gap-x-10 gap-y-20 md:gap-y-40 lg:pl-28">
         <div className=" flex-1">
           <h5>So, you want to travel to</h5>
           <h1>Space</h1>
