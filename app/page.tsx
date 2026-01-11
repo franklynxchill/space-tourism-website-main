@@ -25,7 +25,7 @@ export default function page() {
             Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!
           </p>
         </div>
-        <div className=" flex-1 bg-red-500">
+        <div className=" flex-1 flex justify-center bg-red-500">
           <button className=" bg-accent text-primary uppercase w-37.5 h-37.5 md:w-68.5 md:h-68.5  hover:shadow-gray-900 hover:shadow-2xl rounded-full text-xl md:text-3xl cursor-pointer">Explore</button>
         </div>
       </div>

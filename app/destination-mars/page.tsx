@@ -32,7 +32,7 @@ export default function Page() {
         lg:bg-[url('@/public/assets/destination/background-destination-desktop.jpg')]
         lg:h-[160vh]
       ">
-        <section className=" container mx-auto lg:text-left flex  flex-col lg:flex-row items-center gap-y-20 md:gap-y-40 pb-20 lg:pb-0">
+        <section className=" container mx-auto lg:text-left flex  flex-col lg:flex-row items-center gap-y-20 md:gap-y-40 pb-20 lg:pb-0 lg:pl-32">
 
           <div className=" flex flex-col lg:flex-row gap-x-36 gap-y-20 mt-20 md:mt-36 lg:mt-52 w-full">
             <div className="">
