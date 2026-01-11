@@ -31,7 +31,7 @@ export default function Page() {
         lg:h-[160vh]
       "
     >
-      <div className="container mx-auto pt-20 md:pt-36 lg:pt-52 lg:pl-24">
+      <div className="container mx-auto pt-20 md:pt-36 lg:pt-52 lg:pl-28">
         <h5 className="mb-8 md:mb-20 lg:mb-0 text-accent text-center md:text-left">
           <span className="text-secondary pr-6">03</span> Space launch 101
         </h5>
@@ -50,7 +50,7 @@ export default function Page() {
           "
         ></div>
 
-        <div className="flex flex-col lg:flex-row pb-20 lg:pb-0 px-5 md:px-0 mt-11 lg:mt-0 container mx-auto lg:pl-28">
+        <div className="flex flex-col lg:flex-row pb-20 lg:pb-0 px-5 md:px-0 mt-11 lg:mt-0 container mx-auto lg:pl-32">
           <div>
             <div className="flex flex-col lg:flex-row gap-y-9 gap-x-20 items-center lg:items-start justify-center">
               <div className="flex flex-row lg:flex-col gap-4">
