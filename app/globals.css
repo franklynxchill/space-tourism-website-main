@@ -1,15 +1,20 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
+  --primary: #0b0d17;
+  --secondary: #d0d6f9;
   --foreground: #171717;
+  --accent: #ffffff;
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-bellefair: var(--font-bellefair);
+  --font-barlow: var(--font-barlow);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +24,48 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+h1 {
+  @apply text-[5rem] md:text-[9.375rem];
+ text-transform: uppercase;
+ color: var(--accent);
+ font-family: var(--font-bellefair);
 }
+
+h2 {
+  font-size: 6.25rem;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-family: var(--font-bellefair);
+}
+
+h3 {
+  @apply text-[1.5rem] md:text-[3.5rem];
+ text-transform: uppercase;
+ color: var(--accent);
+ font-family: var(--font-bellefair);
+}
+
+h4 {
+  @apply text-[1rem] md:text-[2rem];
+  text-transform: uppercase;
+  color: var(--accent);
+  font-family: var(--font-bellefair);
+}
+
+h5 {
+  @apply text-base md:text-[1.75rem];
+  text-transform: uppercase;
+  color: var(--secondary);
+  line-height: 4.75;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+body {
+  background: var(--primary);
+  color: var(--accent);
+  font-family: var(--font-barlow);
+}
+
